@@ -1,10 +1,12 @@
 import initHeaderShort from './modules/start-header-short.js';
 import initHomeSlide from './modules/start-home-slide.js';
 import initAnimationSearch from './modules/start-animation-search.js';
+import initBorderBottom from './modules/start-border-bottom.js';
 
 initHeaderShort();
 initHomeSlide();
 initAnimationSearch();
+initBorderBottom();
 
 // start user city location 
 
@@ -23,20 +25,6 @@ function preencherDados(dados) {
   city.innerText = dados.address.city;
   city.style.color = '#D90008'
 }
-
-// start border-bottom navbar-search
-
-const optionSearch = document.querySelectorAll('.navbar-search h3')
-
-optionSearch.forEach(option => {
-  option.addEventListener('click', (event) => {
-    optionSearch.forEach(item => {
-      item.classList.remove('active')
-    })
-    const h3 = event.target;
-    h3.classList.toggle('active');
-  })
-})
 
 // 
 
