@@ -2,11 +2,13 @@ import initHeaderShort from './modules/start-header-short.js';
 import initHomeSlide from './modules/start-home-slide.js';
 import initAnimationSearch from './modules/start-animation-search.js';
 import initBorderBottom from './modules/start-border-bottom.js';
+import initNumbers from './modules/start-numbers.js';
 
 initHeaderShort();
 initHomeSlide();
 initAnimationSearch();
 initBorderBottom();
+initNumbers();
 
 // start user city location 
 
@@ -25,19 +27,6 @@ function preencherDados(dados) {
   city.innerText = dados.address.city;
   city.style.color = '#D90008'
 }
-
-// 
-
-const search = document.querySelector('.search')
-const numbers = document.querySelector('.numbers')
-
-window.addEventListener('scroll', () => {
-  if (window.pageYOffset > (numbers.offsetTop - 420)){
-    numbers.classList.add('active');
-  } else {
-    numbers.classList.remove('active');
-  }
-})
 
 // animated numbers
 
