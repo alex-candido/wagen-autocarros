@@ -1,8 +1,10 @@
 import initHeaderShort from './modules/start-header-short.js';
 import initHomeSlide from './modules/start-home-slide.js';
+import initAnimationSearch from './modules/start-animation-search.js';
 
 initHeaderShort();
 initHomeSlide();
+initAnimationSearch();
 
 // start user city location 
 
@@ -40,18 +42,6 @@ optionSearch.forEach(option => {
 
 const search = document.querySelector('.search')
 const numbers = document.querySelector('.numbers')
-
-window.addEventListener('scroll', () => {
-  if (window.pageYOffset > (numbers.offsetTop - 800)){
-    search.classList.add('active');
-  } else {
-    search.classList.remove('active');
-  }
-})
-
-// start animation-search
-
-
 
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > (numbers.offsetTop - 420)){
