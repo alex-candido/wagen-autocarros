@@ -123,7 +123,7 @@ function handleMutation(mutation) {
   const observer = new MutationObserver(handleMutation);
   
   observer.observe(observerTarget, {attributes: true});
-
+  console.log(teste);
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
