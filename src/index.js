@@ -1,6 +1,8 @@
 import initHeaderShort from './modules/start-header-short.js';
+import initHomeSlide from './modules/start-home-slide.js';
 
 initHeaderShort();
+initHomeSlide();
 
 // start user city location 
 
@@ -19,21 +21,6 @@ function preencherDados(dados) {
   city.innerText = dados.address.city;
   city.style.color = '#D90008'
 }
-
-var swiper = new Swiper(".home-slider", {
-  spaceBetween: 20,
-  effect: "fade",
-  loop:true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  centeredSlides: true,
-  autoplay: {
-    delay: 9500,
-    disableOnInteraction: false,
-  },
-});
 
 // start border-bottom navbar-search
 
