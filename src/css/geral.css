@@ -21,6 +21,11 @@ body {
   height: 2000px;
 }
 
+img {
+	display: block;
+	max-width: 100%;
+}
+
 /* header section starts */
 
 .header {
@@ -354,15 +359,6 @@ body {
 
 /* categories section starts */
 
-.box-categories {
-  width: 386px;
-  height: 320px;
-	background: url("../img/img-categories-01.jpg") no-repeat center;
-  background-size: cover;
-}
-
-/* categories section ends */
-
 .categories h1 {
   font-style: normal;
   font-weight: 700;
@@ -393,3 +389,18 @@ body {
   margin-bottom: 60px;
 }
 
+/* .box-categories-01 {
+  width: 386px;
+  height: 320px;
+	background: url("../img/img-categories-01.jpg") no-repeat center;
+  background-size: cover;
+} */
+
+/* .img-categories-02 {
+  width: 386px;
+  height: 320px;
+	background: url("../img/img-categories-01.jpg") no-repeat center;
+  background-size: cover;
+} */
+
+/* categories section ends */
