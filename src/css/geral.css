@@ -389,12 +389,11 @@ img {
   margin-bottom: 60px;
 }
 
-/* .box-categories-01 {
+.box-categories {
   width: 386px;
   height: 320px;
-	background: url("../img/img-categories-01.jpg") no-repeat center;
   background-size: cover;
-} */
+}
 
 /* .img-categories-02 {
   width: 386px;
