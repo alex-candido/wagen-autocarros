@@ -2,7 +2,7 @@
 
 .numbers-bg {
   width: 100%;
-  background: #C2C6CC;
+  background: var(  --cor-2);
   margin-top: 130px;
 }
 

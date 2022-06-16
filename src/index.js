@@ -6,6 +6,8 @@ import initBorderBottom from './modules/start-border-bottom.js';
 import initNumbers from './modules/start-numbers.js';
 import initAnimationNumbers from './modules/start-animation-numbers.js';
 import initCategoriesSlide from './modules/start-categories-slide.js';
+import initBrandsSlide from './modules/start-brands-slide.js';
+
 
 // initCityLocation();
 initHeaderShort();
@@ -15,3 +17,4 @@ initBorderBottom();
 initNumbers();
 initAnimationNumbers();
 initCategoriesSlide();
+initBrandsSlide();
