@@ -12,6 +12,7 @@
   border-radius: 10px;
   padding: 30px 30px; 
   background: var(--cor-0);
+  border: 2px solid #E5E5E5;
   /* position: absolute;
   width: 978px;
   margin: 0 auto;

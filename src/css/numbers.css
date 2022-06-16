@@ -2,7 +2,7 @@
 
 .numbers-bg {
   width: 100%;
-  background: #C2C6CC;
+  background: var(  --cor-2);
   margin-top: 130px;
 }
 
@@ -28,7 +28,7 @@
   border-radius: .5rem;
   height: 120px;  
   cursor: pointer;
-  /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.1); */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .numbers-bg .icons i{
@@ -64,6 +64,7 @@
 .numbers-bg .icons:hover{
   background: linear-gradient(90deg, #D90008 2.91%, #FF4D53 74.53%);
   transition: .5s linear;
+  border: 0px;
 }
 
 /* .numbers .icons:hover i{

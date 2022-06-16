@@ -1,8 +1,8 @@
-export default function initCategoriesSlide() {
+export default function initBrandsSlide() {
 
-  const categoriesbg = document.querySelector('.categories-bg')
-  const swiperButtonPrevCategories = document.querySelector('.swiper-button-prev-categories');
-  const swiperButtonNextCategories = document.querySelector('.swiper-button-next-categories');
+  const categoriesbg = document.querySelector('.brands-bg')
+  const swiperButtonPrevCategories = document.querySelector('.swiper-button-prev-brands');
+  const swiperButtonNextCategories = document.querySelector('.swiper-button-next-brands');
 
   categoriesbg.addEventListener('mouseover', () => {
     swiperButtonPrevCategories.classList.add('active');
@@ -18,19 +18,19 @@ export default function initCategoriesSlide() {
 
   //stat categories-slide
 
-  var swiper = new Swiper(".mySwiper-categories", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+  var swiper = new Swiper(".mySwiper-brands", {
+    slidesPerView: 6,
+    spaceBetween: 72,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
-      el: ".swiper-pagination-categories",
+      el: ".swiper-pagination-brands",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next-brands",
+      prevEl: ".swiper-button-prev-brands",
     },
   });
 }
