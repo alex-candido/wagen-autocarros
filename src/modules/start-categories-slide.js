@@ -18,14 +18,14 @@ export default function initCategoriesSlide() {
 
   //stat categories-slide
 
-  var swiper = new Swiper(".mySwiper", {
+  var swiper = new Swiper(".mySwiper-categories", {
     slidesPerView: 3,
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiper-pagination-categories",
       clickable: true,
     },
     navigation: {
