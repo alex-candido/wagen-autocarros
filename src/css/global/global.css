@@ -1,20 +1,35 @@
-a {
+*{ 
+	-webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+	font-family: 'Poppins', sans-serif;
+	outline: none; 
+  border:none;
 	text-decoration: none;
+	box-sizing: border-box;
 }
 
-/**
- * Remove list-style
- */ 
+body {
+	height: 2000px;
+	background: #0000;
+}
+ 
 
 ol, ul {
 	list-style: none;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/* vertical-align: baseline; */
+	vertical-align: baseline;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul {

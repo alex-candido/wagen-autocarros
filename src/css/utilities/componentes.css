@@ -1,0 +1,24 @@
+
+.container {
+	max-width: 1200px;
+  margin: 0 auto;
+	padding: 0px;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: flex;
+  padding: 15px 20px;
+  font: 700 1.125rem/1.35 "Poppins", sans-serif;
+  border-radius: 10px;
+  background: var(--cor-p1);
+  color: var(--cor-0);
+  cursor: pointer;
+  max-width: max-content;
+  gap: 10px;
+}
+
+.btn:hover  {
+  background: linear-gradient(90deg, #D90008 2.91%, #FF4D53 74.53%);
+  transition: all .10s ease;
+}

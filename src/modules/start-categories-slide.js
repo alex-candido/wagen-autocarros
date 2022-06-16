@@ -1,5 +1,21 @@
 export default function initCategoriesSlide() {
 
+  const categoriesbg = document.querySelector('.categories-bg')
+  const swiperButtonPrevCategories = document.querySelector('.swiper-button-prev-categories');
+  const swiperButtonNextCategories = document.querySelector('.swiper-button-next-categories');
+
+  categoriesbg.addEventListener('mouseover', () => {
+    swiperButtonPrevCategories.classList.add('active');
+    swiperButtonNextCategories.classList.add('active');
+
+    categoriesbg.addEventListener('mouseout', () => {
+      swiperButtonPrevCategories.classList.remove('active');
+      swiperButtonNextCategories.classList.remove('active');
+    })
+  })
+
+  
+
   //stat categories-slide
 
   var swiper = new Swiper(".mySwiper", {

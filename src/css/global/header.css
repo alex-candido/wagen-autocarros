@@ -1,0 +1,75 @@
+.header-bg {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 25px 20px 0 20px;
+  background: var(--cor-0);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: var(--cor-0);
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header .header-menu li {
+  height: 75px;
+  padding-bottom: 20px;
+}
+
+.header-bg.active {
+  padding-top: 16px;
+  transition: .2s linear;
+}
+
+.header-bg.active .header .header-menu li{
+  height: 70px;
+  transition: .2s linear;
+}
+
+.header .header-menu li:hover{
+  border-bottom: 3px solid var(--cor-p1);
+  transition: all .3s ease;
+}
+
+.header .header-menu li a {
+  display: inline-block;
+  padding: 16px 0px 16px 0px;
+  font: var(--p-font-1-s);
+  color: var(--cor-6);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header .header-menu li a:hover {
+  color: var(--cor-p1);
+  transition: all .5s ease;
+}
+
+.header .header-menu .city{
+  display: flex;
+  gap: 10px;
+}
+
+.header .header-menu .city a {
+  color: var(--cor-p1);
+}
+
+.header .header-menu .city i {
+  padding: 15px 0px 16px 0px;
+  color: var(--cor-p1);
+}
+
+
+

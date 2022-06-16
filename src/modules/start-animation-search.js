@@ -3,7 +3,7 @@ export default function initAnimationSearch() {
 // start animation-search
 
 const search = document.querySelector('.search')
-const numbers = document.querySelector('.numbers')
+const numbers = document.querySelector('.numbers-bg')
 
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > (numbers.offsetTop - 800)){

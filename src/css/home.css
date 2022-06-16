@@ -1,0 +1,72 @@
+.home-bg {
+  width: 100%;
+}
+
+.home-bg .home-slider .box .content h1{
+  padding: 80px 0px 0px 200px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;  
+  color: var(--cor-0);
+  text-align: left;
+  transition-delay: .2s;
+  text-shadow: 0px 25px 25px rgba(0, 0, 0, 0.4);
+}
+
+.home-bg .home-slider .box .content h1 span {
+  color: var(--cor-p1)
+}
+
+/* Native slide start */
+
+.home-bg .home-slider .box{
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.home-bg .home-slider .box .content{
+  width: 100%;
+  text-align: center;
+}
+
+.home-bg .home-slider .box .content > *{
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+.home-bg .home-slider .swiper-slide-active .content > *{
+  transform: translateY(0rem);
+  opacity: 1;
+}
+.swiper-button-next, .swiper-button-prev {
+  top: 55%;
+}
+
+.home-bg .home-slider .swiper-button-next{
+  right: 1.3rem;
+  color:var(--cor-0);
+  opacity: 0;
+}
+
+.home-bg .home-slider .swiper-button-prev{
+  left: 1.3rem;
+  color:var(--cor-0);
+  opacity: 0;
+}
+
+.home-bg .home-slider .swiper-button-next:hover,
+.home-bg .home-slider .swiper-button-prev:hover{
+  color: var(--cor-p1)
+}
+
+.home-bg .home-slider:hover .swiper-button-next,
+.home-bg .home-slider:hover .swiper-button-prev{
+  opacity: 1;
+}
+
+/* Native slide ends */

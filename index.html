@@ -19,16 +19,15 @@
 <body>
 
   <!-- header section starts-->
+  <header class="header-bg">
 
-  <header class="header">
-    <div class="container">
+    <div class="header container">
+      <a href="./">
+        <img src="src/img/img-logo.png" alt="Wagen Autocarros">
+      </a>
 
-      <div class="logo grid-3">
-        <a href="#" class="logo"><img src="src/img/img-logo.png" alt="Wagen Autocarros"></a>
-      </div>
-
-      <nav class="navbar grid-9">
-        <ul>
+      <nav>
+        <ul class="header-menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">carros</a></li>
           <li><a href="#">Comprar</a></li>
@@ -36,41 +35,36 @@
           <li class="city"><a href="#">...</a><i class='fa-solid fa-location-dot'></i></li>
         </ul>
       </nav>
-
-      <div class="login-btn grid-4">
+      <div class="login-btn">
         <button class="btn">Entre ou Cadastre-se <i class="fa-solid fa-user"></i></button>
       </div>
-
     </div>
-  </header>
 
+  </header>
   <!-- header section ends-->
 
   <!-- home section starts -->
+  <section class="home-bg">
 
-  <section class="home">
+    <div class="home home-slider">
 
-    <div class=" home-slider">
-
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper-home swiper-wrapper">
 
         <div class="swiper-slide box" style="background: url(src/img/img-home-01.jpg);">
-          <div class="content container">
-            <h1 class="grid-10">Na <span>wagen</span><br>você encontra o seu melhor carro</h1>
+          <div class="content">
+            <h1 class="h1-font-1-xxl">Na <span>wagen</span><br>você encontra o<br> seu melhor carro</h1>
           </div>
         </div>
 
         <div class="swiper-slide box" style="background: url(src/img/img-home-02.jpg);">
-          <div class="content container">
-            <h1 class="grid-10">Na <span>wagen</span><br>você encontra o seu melhor carro</h1>
+          <div class="content">
+            <h1 class="h1-font-1-xxl">Na <span>wagen</span><br>você encontra o<br> seu melhor carro</h1>
           </div>
         </div>
 
         <div class="swiper-slide box" style="background: url(src/img/img-home-03.jpg);">
-          <div class="content container">
-            <div class="grid-10">
-              <h1>Na <span>wagen</span><br>você encontra o seu melhor carro</h1>
-            </div>
+          <div class="content">
+            <h1 class="h1-font-1-xxl">Na <span>wagen</span><br>você encontra o<br> seu melhor carro</h1>
           </div>
         </div>
 
@@ -82,42 +76,44 @@
     </div>
 
   </section>
-
   <!-- home section ends -->
 
   <!-- search div start -->
+  <div class="search-bg">
+    <div class="search">
 
-  <div class="search">
-    <div class="navbar-search">
-      <ul>
-        <li>
-          <h3 class="active">Comprar Carros</h3>
-        </li>
-        <li>
-          <h3>Quero Vender</h3>
-        </li>
-        <li>
-          <h3>Quero Financiar</h3>
-        </li>
-        <li>
-          <h3>Quero Alugar</h3>
-        </li>
-      </ul>
-    </div>
-    <div class="input-search">
-      <i class="fas fa-search"></i>
-      <input type="search" placeholder="Digite marca ou modelo">
-      <button class="btn">Resultados (4.715)</button>
+      <div class="navbar-search">
+        <ul>
+          <li>
+            <h3 class="active">Comprar Carros</h3>
+          </li>
+          <li>
+            <h3>Quero Vender</h3>
+          </li>
+          <li>
+            <h3>Quero Financiar</h3>
+          </li>
+          <li>
+            <h3>Quero Alugar</h3>
+          </li>
+        </ul>
+      </div>
+
+      <div class="input-search">
+        <input type="search" placeholder="Digite marca ou modelo">
+        <button class="btn">Resultados (4.715)</button>
+      </div>
+
     </div>
   </div>
-
   <!-- search div ends -->
 
   <!-- numbers section starts -->
-
-  <section class="numbers">
+  <section class="numbers-bg">
     <div class="container">
+
       <div class="numbers-wrapper">
+
         <div class="icons grid-4">
           <i class="fas fa-home"></i>
           <div class="content">
@@ -146,22 +142,25 @@
           <i class="fas fa-car"></i>
           <div class="content">
             <h3 data-numero>1800</h3>
-            <p>Novos carrosss</p>
+            <p>Novos carros</p>
           </div>
         </div>
+
       </div>
+
     </div>
 
   </section>
-
   <!-- numbers section ends -->
 
   <!-- categories section starts -->
 
-  <section class="categories">
+  <section class="categories-bg">
     <div class="container">
-      <h1>temos todos os tipos de carros</h1>
+
+      <h1 class="h2-font-1-xl">temos todos os tipos de carros</h1>
       <p>Selecione a categoria que você mais deseja</p>
+
       <!-- Nativo -->
       <div class="swiper-categories swiper mySwiper">
 
@@ -210,92 +209,10 @@
 
   <!-- categories section ends -->
 
-  <!-- brands section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- brands section ends -->
-
-  <!-- models section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- models section ends -->
-
-  <!-- info section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- info section ends -->
-
-  <!-- buy section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- buy section ends -->
-
-  <!-- info-budget section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- info-budget section ends -->
-
-  <!-- services section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- services section ends -->
-
-  <!-- newsletter section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- newsletter section ends -->
-
-  <!-- faq section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- faq section ends -->
-
-  <!-- clients section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- clients section ends -->
-
-  <!-- contact section starts -->
-
-  <section class="wrapper">
-
-  </section>
-
-  <!-- contact section ends -->
-
   <!-- footer section starts -->
-
-  <footer class="wrapper">
+  <footer class="footer-bg">
 
   </footer>
-
   <!-- footer section ends -->
 
 </body>

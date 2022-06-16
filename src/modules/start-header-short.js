@@ -3,9 +3,9 @@ export default function initHeaderShort() {
 
   window.addEventListener('scroll', () =>{
     if (window.scrollY > 0){
-      document.querySelector('.header').classList.add('active');
+      document.querySelector('.header-bg').classList.add('active');
     } else {
-      document.querySelector('.header').classList.remove('active');
+      document.querySelector('.header-bg').classList.remove('active');
     }
   })
 
@@ -13,9 +13,9 @@ export default function initHeaderShort() {
 
   window.addEventListener('load', () =>{
     if (window.scrollY > 0){
-      document.querySelector('.header').classList.add('active');
+      document.querySelector('.header-bg').classList.add('active');
     } else {
-      document.querySelector('.header').classList.remove('active');
+      document.querySelector('.header-bg').classList.remove('active');
     }
   })
 

@@ -29,7 +29,7 @@ function handleMutation(mutation) {
    }
   }
   
-const observerTarget = document.querySelector('.numbers');
+const observerTarget = document.querySelector('.numbers-bg');
 const observer = new MutationObserver(handleMutation);
 
 observer.observe(observerTarget, {attributes: true});

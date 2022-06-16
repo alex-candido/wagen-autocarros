@@ -1,4 +1,13 @@
-@import 'reset.css';
-@import 'normalize.css';
-@import 'grid.css';
-@import 'geral.css';
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+
+@import "utilities/componentes.css";
+@import "utilities/formulario.css";
+@import "utilities/cores.css";
+@import "utilities/tipografia.css";
+
+@import "home.css";
+@import "search.css";
+@import "numbers.css";
+@import "categories.css";
