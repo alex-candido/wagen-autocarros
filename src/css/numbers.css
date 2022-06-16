@@ -64,6 +64,7 @@
 .numbers-bg .icons:hover{
   background: linear-gradient(90deg, #D90008 2.91%, #FF4D53 74.53%);
   transition: .5s linear;
+  border: 0px;
 }
 
 /* .numbers .icons:hover i{
