@@ -1,0 +1,46 @@
+/* announcement section starts */
+
+.announcement-bg {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.announcement-wrapper {
+  background: var(--cor-p1);
+  border-radius: 10px;
+  padding: 25px 110px 25px 110px;
+}
+
+.announcement-bg .announcement-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.announcement-bg .announcement-wrapper .content h3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;  
+  color: var(--cor-0);
+}
+
+.announcement-bg .announcement-wrapper .content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--cor-0);
+}
+
+.announcement-bg .announcement-wrapper .content .btn {
+  background: #F5B807;
+}
+
+.announcement-bg .announcement-wrapper .content .btn:hover {
+  background: linear-gradient(90deg, #F5B807 8.64%, rgba(255, 192, 7, 0.74) 83.18%);
+}
+
+
+/* announcement section ends */
