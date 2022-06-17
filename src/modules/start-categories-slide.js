@@ -29,8 +29,8 @@ export default function initCategoriesSlide() {
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next-categories",
+      prevEl: ".swiper-button-prev-categories",
     },
   });
 }
