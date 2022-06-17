@@ -1,4 +1,3 @@
-// import initCityLocation from './modules/start-city-location.js';
 import initHeaderShort from './modules/start-header-short.js';
 import initHomeSlide from './modules/start-home-slide.js';
 import initAnimationSearch from './modules/start-animation-search.js';
@@ -7,9 +6,9 @@ import initNumbers from './modules/start-numbers.js';
 import initAnimationNumbers from './modules/start-animation-numbers.js';
 import initCategoriesSlide from './modules/start-categories-slide.js';
 import initBrandsSlide from './modules/start-brands-slide.js';
+import initModelsSlide from './modules/start-models-slide.js';
 
 
-// initCityLocation();
 initHeaderShort();
 initHomeSlide();
 initAnimationSearch();
@@ -18,3 +17,4 @@ initNumbers();
 initAnimationNumbers();
 initCategoriesSlide();
 initBrandsSlide();
+initModelsSlide();
