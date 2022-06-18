@@ -19,11 +19,17 @@ export default function initBuySlide() {
   //stat categories-slide
 
   var swiper = new Swiper(".mySwiper-buy", {
+    grabCursor: true,
+    centeredSlides: true,
     slidesPerView: 3,
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
+    autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination-buy",
       clickable: true,
@@ -31,6 +37,17 @@ export default function initBuySlide() {
     navigation: {
       nextEl: ".swiper-button-next-buy",
       prevEl: ".swiper-button-prev-buy",
+    },
+    breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
     },
   });
 }
