@@ -19,11 +19,17 @@ export default function initBrandsSlide() {
   //stat categories-slide
 
   var swiper = new Swiper(".mySwiper-brands", {
+    grabCursor: true,
+    centeredSlides: true,
     slidesPerView: 6,
     spaceBetween: 72,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
+    autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination-brands",
       clickable: true,
