@@ -27,7 +27,7 @@ export default function initCategoriesSlide() {
     loop: true,
     loopFillGroupWithBlank: true,
     autoplay: {
-    delay: 7500,
+    delay: 6500,
     disableOnInteraction: false,
     },
     pagination: {
