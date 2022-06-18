@@ -7,6 +7,7 @@ import initAnimationNumbers from './modules/start-animation-numbers.js';
 import initCategoriesSlide from './modules/start-categories-slide.js';
 import initBrandsSlide from './modules/start-brands-slide.js';
 import initModelsSlide from './modules/start-models-slide.js';
+import initBuySlide from './modules/start-buy-slide.js';
 
 
 initHeaderShort();
@@ -18,3 +19,4 @@ initAnimationNumbers();
 initCategoriesSlide();
 initBrandsSlide();
 initModelsSlide();
+initBuySlide();
