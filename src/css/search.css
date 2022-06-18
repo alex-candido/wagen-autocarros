@@ -63,11 +63,12 @@
   padding: 15px 20px;
   border: 2px solid #94949E;
   border-radius: 10px;
-  font: 700 1rem/1.5 "Poppins", sans-serif;
+  font: 1rem "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .input-search input:hover {
-  border-color: #395F9F;
+  border-color: #D90008;
   outline: none;
 }
 
