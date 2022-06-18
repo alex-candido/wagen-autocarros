@@ -31,9 +31,17 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+.swiper-buy-1 {
+  padding-bottom: 20px;
+}
+
+.swiper-buy-2 {
+  padding-top: 20px;
+} 
  
 .box-buy {
-  height: 320px;
+  height: 100%;
   border-radius: 10px;
   cursor: pointer;
   background-size:contain;
@@ -47,21 +55,46 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 15px;
   height: 100%;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .box-buy h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 30px;
   color: #000;
 }
 
 .box-buy h3 span {
   color: #DB0D15;
+}
+
+.box-buy p {
+  margin-bottom: 0;
+}
+
+.box-buy .price {
+  font-weight: 700;
+  font-size: 28px;
+  color: #000;
+}
+
+.box-buy .stars i{
+  font-size: 1.5rem;
+  color: #D90008;
+}
+
+.buy-bg .swiper-buy .swiper-wrapper-buy .box-buy .btn {
+  background: #F5B807;
+  padding: 10px 25px;
+}
+
+.buy-bg .swiper-buy .swiper-wrapper-buy .box-buy .btn:hover {
+  background: linear-gradient(90deg, #F5B807 8.64%, rgba(255, 192, 7, 0.74) 83.18%);
 }
  
 .swiper-button-prev-buy {
