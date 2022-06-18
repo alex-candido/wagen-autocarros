@@ -46,6 +46,7 @@
   cursor: pointer;
   background-size:contain;
   width:100%;
+  background: var(--cor-0);
   border: 2px solid #E5E5E5;
   border-radius: 10px;
 }
@@ -91,6 +92,7 @@
 .buy-bg .swiper-buy .swiper-wrapper-buy .box-buy .btn {
   background: #F5B807;
   padding: 10px 25px;
+  color: #000;
 }
 
 .buy-bg .swiper-buy .swiper-wrapper-buy .box-buy .btn:hover {

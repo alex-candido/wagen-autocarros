@@ -1,0 +1,114 @@
+/* services section starts */
+
+.services-bg {
+  width: 100%;
+}
+
+.services-bg h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.services-bg h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #DB0D15;
+  margin: 15px auto 10px auto;
+}
+
+.services-bg p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #94949E;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.swiper-services-1 {
+  padding-bottom: 20px;
+}
+
+.swiper-services-2 {
+  padding-top: 20px;
+} 
+
+.swiper-wrapper-services {
+  display: flex;
+  gap: 30px;
+  height: 320px;
+}
+ 
+.box-services {
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  width:100%;
+  background: var(--cor-0);
+  border: 2px solid #E5E5E5;
+  border-radius: 10px;
+}
+
+.box-services a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.box-services h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: #000;
+}
+
+.box-services h3 span {
+  color: #DB0D15;
+}
+
+.box-services p {
+  margin-bottom: 0;
+}
+
+.box-services:hover {
+  background: linear-gradient(90deg, #D90008 2.91%, #FF4D53 74.53%);
+  transition: .5s linear;
+}
+
+.box-services:hover h3 {
+  color:#fff;
+}
+
+.box-services:hover h3 span {
+  color:#fff;
+}
+
+.box-services:hover p {
+  color:#fff;
+}
+
+.services-bg .swiper-services .swiper-wrapper-services .box-services .btn {
+  background: #F5B807;
+  padding: 10px 25px;
+  color: #000;
+}
+
+.services-bg .swiper-services .swiper-wrapper-services .box-services .btn:hover {
+  background: linear-gradient(90deg, #F5B807 8.64%, rgba(255, 192, 7, 0.74) 83.18%);
+}
+
+/* services section ends */

@@ -19,11 +19,17 @@ export default function initModelsSlide() {
   //stat categories-slide
 
   var swiper = new Swiper(".mySwiper-models", {
+    grabCursor: true,
+    centeredSlides: true,
     slidesPerView: 3,
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
+    autoplay: {
+    delay: 6500,
+    disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination-models",
       clickable: true,
@@ -31,6 +37,17 @@ export default function initModelsSlide() {
     navigation: {
       nextEl: ".swiper-button-next-models",
       prevEl: ".swiper-button-prev-models",
+    },
+    breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
     },
   });
 }
