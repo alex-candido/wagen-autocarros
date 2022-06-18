@@ -1,0 +1,72 @@
+/* newsletter section starts */
+
+.newsletter-bg {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.newsletter-wrapper {
+  background: var(--cor-p1);
+  border-radius: 10px;
+  padding: 60px 110px 60px 110px;
+}
+
+.newsletter-bg .newsletter-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.newsletter-bg .newsletter-wrapper .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;  
+  color: var(--cor-0);
+}
+
+.newsletter-bg .newsletter-wrapper .content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--cor-0);
+}
+
+.newsletter-wrapper form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.newsletter-wrapper input {
+  height: 50px;
+  width: 662px;
+  padding: 15px 20px;
+  border: 2px solid #94949E;
+  border-radius: 10px;
+  font: 1rem "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.newsletter-wrapper input:hover {
+  border-color: var(--cor-s1);
+  outline: none;
+}
+
+.newsletter-bg .newsletter-wrapper .content .btn {
+  background: #F5B807;
+  color: var(--cor-7);
+  height: 50px;
+}
+
+.newsletter-bg .newsletter-wrapper .content .btn:hover {
+  background: linear-gradient(90deg, #F5B807 8.64%, rgba(255, 192, 7, 0.74) 83.18%);
+}
+
+
+/* newsletter section ends */
