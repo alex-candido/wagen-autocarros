@@ -31,21 +31,6 @@
   text-align: center;
   margin-bottom: 50px;
 }
-
-/* .swiper-categories  {
-  height: 330px;
-  width: 1220px;
-} */
-
-/* .swiper-categories .box-categories {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-} */
-
-/* .swiper-wrapper-categories {
-  height: 340px;
-}  */
  
 .box-models {
   height: 320px;
@@ -53,12 +38,9 @@
   cursor: pointer;
   background-size:contain;
   width:100%;
+  background: var(--cor-0);
   border: 2px solid #E5E5E5;
   border-radius: 10px;
-  /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); */
-  /* position: relative;
-  text-align: center; */
-  /* overflow: hidden; */
 }
 
 .box-models a {
