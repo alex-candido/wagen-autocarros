@@ -8,6 +8,7 @@ import initCategoriesSlide from './modules/start-categories-slide.js';
 import initBrandsSlide from './modules/start-brands-slide.js';
 import initModelsSlide from './modules/start-models-slide.js';
 import initBuySlide from './modules/start-buy-slide.js';
+import initFaqAccordio from './modules/start-accordion-faq.js';
 
 
 initHeaderShort();
@@ -20,3 +21,4 @@ initCategoriesSlide();
 initBrandsSlide();
 initModelsSlide();
 initBuySlide();
+initFaqAccordio();
