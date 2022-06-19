@@ -9,6 +9,7 @@ import initBrandsSlide from './modules/start-brands-slide.js';
 import initModelsSlide from './modules/start-models-slide.js';
 import initBuySlide from './modules/start-buy-slide.js';
 import initFaqAccordio from './modules/start-accordion-faq.js';
+import initClientsSlide from './modules/start-clients-slide.js';
 
 
 initHeaderShort();
@@ -22,3 +23,4 @@ initBrandsSlide();
 initModelsSlide();
 initBuySlide();
 initFaqAccordio();
+initClientsSlide();

@@ -1,4 +1,4 @@
-/* categories section starts */
+/* clients section starts */
 
 .clients-bg {
   width: 100%;
@@ -31,6 +31,7 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
  
 .box-clients {
   height: 320px;
@@ -41,6 +42,14 @@
   background: var(--cor-0);
   border: 2px solid #E5E5E5;
   border-radius: 10px;
+  opacity: .4;
+  transform: scale(.9);
+}
+
+.swiper-wrapper-clients .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: var(--box-shadow);
 }
 
 .box-clients a {
@@ -51,6 +60,7 @@
   gap: 20px;
   height: 100%;
   width: 100%;
+  padding: 20px;
 }
 
 .box-clients h3 {
@@ -63,6 +73,15 @@
 
 .box-clients h3 span {
   color: #DB0D15;
+}
+
+.box-clients p {
+  margin-bottom: 0;
+}
+
+.box-clients .stars i{
+  font-size: 1.5rem;
+  color: #D90008;
 }
  
 .swiper-button-prev-clients {
@@ -83,7 +102,7 @@
 /* ----------Native------------ */
 
 .swiper-button-prev-clients, .swiper-button-next-clients{
-  top: 2620px;
+  top: 6877px;
   /* opacity: 0; */
   width: calc(var(--swiper-navigation-size)/ 44 * 27);
   height: var(--swiper-navigation-size);
@@ -137,4 +156,4 @@
   text-align: center;
 } 
 
-/* categories section ends */
+/* clients section ends */
