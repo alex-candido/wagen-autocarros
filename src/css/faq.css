@@ -1,0 +1,91 @@
+/* faq section starts */
+
+.faq-bg {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.faq-bg h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.faq-bg h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #DB0D15;
+  margin: 15px auto 10px auto;
+}
+
+.faq-bg p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #94949E;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.faq-bg-wrapper {
+  background: var(  --cor-2);
+}
+
+.faq-lista {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 60px 0 60px 0;
+  gap: 10px;
+}
+
+.faq-lista li{
+  background: var(--cor-0);
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+}
+
+.faq-bg .faq-lista li .question {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px 0px 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.faq-bg .faq-lista li .question i {
+  font-size: 1.5rem;
+  transition: transform .3s;
+}
+
+.faq-bg .faq-lista li .question.active i {
+  transform: rotate(180deg);
+}
+
+.faq-bg .faq-lista li h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.faq-bg .faq-lista li p {
+  display: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  padding: 0px 30px 25px 30px;
+}
+
+.faq-bg .faq-lista li p.active {
+  display: block;
+  transition: max-height 0.2s ease-out 0s, margin-top 0.2s ease-out 0s, margin-bottom 0.2s ease-out 0s, opacity 0.3s ease-out 0s;
+}
+
+/* faq section ends*/
