@@ -1,6 +1,7 @@
 .footer-bg {
   width: 100%;
-  background: var(--cor-p1);
+  /* background: var(--cor-p1); */
+  background: linear-gradient(270deg,#ba282b 4.1%,#e8474d 52.73%,#ba282b 97.46%);
 }
 
 .footer-wrapper {
