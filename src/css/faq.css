@@ -70,8 +70,9 @@
 }
 
 .faq-bg .faq-lista li h4 {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .faq-bg .faq-lista li p {

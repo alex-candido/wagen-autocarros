@@ -30,15 +30,36 @@
           <li><a href="#">carros</a></li>
           <li><a href="#">Comprar</a></li>
           <li><a href="#">Serviços</a></li>
-          <li class="city"><a href="#">...</a><i class='fa-solid fa-location-dot'></i></li>
+          <li class="city"><a href="#" title="Sua Cidade">...</a><i class='fa-solid fa-location-dot'></i></li>
         </ul>
       </nav>
       <div class="login-btn">
-        <button class="btn">Entre ou Cadastre-se <i class="fa-solid fa-user"></i></button>
+        <button data-modal="login" class="btn">Entre ou Cadastre-se <i class="fa-solid fa-user"></i></button>
       </div>
     </div>
   </header>
   <!-- header section ends-->
+
+  <!-- login div starts-->
+  <div data-modal="container" class="login-bg">
+    <button id="close" data-modal="close" class="fas fa-times"></button>
+
+    <form action="">
+      <h3>Login</h3>
+      <input type="email" placeholder="email">
+      <input type="password" placeholder="password">
+      <p> Esqueci minha senha <a href="#">clique aqui</a> </p>
+      <button class="btn">Login</i></button>
+      <p>ou faça login com</p>
+      <div class="buttons">
+        <a href="#" class="btn"> Google </a>
+        <a href="#" class="btn"> Facebook </a>
+      </div>
+      <p> Não tem uma conta <a href="#">Criar uma</a> </p>
+    </form>
+
+  </div>
+  <!-- login div ends-->
 
   <!-- home section starts -->
   <section class="home-bg">
@@ -723,9 +744,9 @@
 
         <form action="">
           <h3>Entre em contato</h3>
-          <input type="text" placeholder="seu nome" class="contact-box">
-          <input type="email" placeholder="seu email" class="contact-box">
-          <input type="tel" placeholder="assunto" class="contact-box">
+          <input type="text" placeholder="seu nome">
+          <input type="email" placeholder="seu email">
+          <input type="tel" placeholder="assunto">
           <textarea placeholder="sua mensagem" class="contact-box" cols="30" rows="10"></textarea>
           <button class="btn">Enviar Mensagem</button>
         </form>

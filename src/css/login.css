@@ -1,0 +1,91 @@
+
+.login-bg {
+  position: fixed;
+  z-index: 1500;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-bg.active {
+  display: flex;
+}
+
+.login-bg form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  background: var(--cor-0);
+  border: var(--border);
+  text-align: center;
+  width: 400px;
+}
+
+.login-bg form .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.login-bg form .btn {
+  padding: 10px 20px;
+}
+
+.login-bg form .buttons .btn {
+  padding: 10px 20px;
+}
+
+.login-bg form h3 {
+  color: var(--cor-6);
+  font: 1.5rem/1.35 "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.login-bg form input {
+  margin:.7rem 0;
+  width: 100%;
+  font: 1.125rem/1.5 "Poppins", sans-serif;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color:var(--cor-6);
+  border:var(--border);
+  padding: 1rem 1.2rem;
+  border-radius: .5rem;
+}
+
+.login-bg  form p {
+  padding: 1rem 0;
+  font: 1.125rem/1.5 "Poppins", sans-serif;
+  /* font-weight: 600; */
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: var(--cor-3);
+}
+
+.login-bg form p a{
+  color: var(--cor-p1);
+  font: 1.125rem/1.5 "Poppins", sans-serif;
+  text-decoration: underline;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
+
+.login-bg #close {
+  position: absolute;
+  top: 1.5rem; 
+  right: 2.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
