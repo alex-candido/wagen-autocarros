@@ -36,7 +36,7 @@
 .header .header-menu .dropdown-menu li {
   /* width: 100%; */
   height: 40px;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .header .header-menu .dropdown-menu li a {
@@ -46,12 +46,15 @@
   line-height: 20px;
   letter-spacing: 0.05em;
   color: var(--cor-6);
-  padding: 10px 10px 10px 0;
+  padding: 10px 10px 15px 0;
+  display: flex;
+  gap: 10px;
 }
 
-.header .header-menu .dropdown-menu li a:hover {
+/* .header .header-menu .dropdown-menu li a:hover {
   color: var(--cor-p1);
-}
+} */
+
 
 .header-bg.active .header .header-menu .dropdown-menu li{
   height: 40px;

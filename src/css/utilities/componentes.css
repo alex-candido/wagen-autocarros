@@ -8,7 +8,7 @@
 
 .btn {
   display: flex;
-  padding: 15px 20px;
+  padding: 10px 15px;
   font: 1.125rem/1.5 "Poppins", sans-serif;
   border-radius: 10px;
   background: var(--cor-p1);
