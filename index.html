@@ -21,16 +21,30 @@
   <!-- header section starts-->
   <header class="header-bg">
     <div class="header container">
-      <a href="./">
+      <a class="logo" href="./">
         <img src="src/img/geral/img-logo.png" alt="Wagen Autocarros">
       </a>
       <nav>
         <ul class="header-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">carros</a></li>
-          <li><a href="#">Comprar</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li class="city"><a href="#" title="Sua Cidade">...</a><i class='fa-solid fa-location-dot'></i></li>
+          <li><a href="#categories">Categorias</a></li>
+          <li><a href="#models">Modelos</a></li>
+          <li><a href="#buy">Comprar</a></li>
+          <li data-dropdown>
+            <a href="#">Serviços <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#services"><img src="src/img/dropdown/img-dropdown-01.png" alt="Comprar">Comprar</a></li>
+                <li><a href="#services"><img src="src/img/dropdown/img-dropdown-02.png" alt="Vender">Vender</a></li>
+                <li><a href="#services"><img src="src/img/dropdown/img-dropdown-03.png" alt="Alugar">Alugar</a></li>
+              </ul>
+              <ul>
+                <li><a href="#services"><img src="src/img/dropdown/img-dropdown-04.png" alt="Financiar">Financiar</a></li>
+                <li><a href="#services"><img src="src/img/dropdown/img-dropdown-05.png" alt="Seguro">Seguro</a></li>
+                <li><a href="#services"><img src="src/img/dropdown/img-dropdown-06.png" alt="Suporte">Suporte</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="city"><a href="#" title="Sua cidade">...</a><i class='fa-solid fa-location-dot'></i></li>
         </ul>
       </nav>
       <div class="login-btn">
@@ -152,7 +166,7 @@
   <!-- numbers section ends -->
 
   <!-- categories section starts -->
-  <section class="categories-bg">
+  <section id="categories" class="categories-bg">
     <div class="container">
       <h1>temos todos os tipos de carros</h1>
       <p>Selecione a categoria que você mais deseja</p>
@@ -275,7 +289,7 @@
   <!-- brands section ends -->
 
   <!-- models section starts -->
-  <section class="models-bg">
+  <section id="models" class="models-bg">
     <div class="container">
       <h1>Modelos mais buscados</h1>
       <p>Confira os automóveis mais vendidos nos últimos dias</p>
@@ -341,7 +355,7 @@
   <!-- announcement section ends -->
 
   <!-- buy section starts -->
-  <section class="buy-bg">
+  <section id="buy" class="buy-bg">
     <div class="container">
       <h1>Ofertas exclusivas pra você</h1>
       <p>Confira os automóveis mais vendidos nos últimos dias</p>
@@ -523,7 +537,7 @@
   <!-- buy section ends -->
 
   <!-- services section starts -->
-  <section class="services-bg">
+  <section id="services" class="services-bg">
     <div class="container">
       <h1>NOSSOS SERVIÇOS</h1>
       <p>Confira as melhores soluções e serviços</p>
@@ -831,6 +845,8 @@
 <script src="src/modules/start-city-location.js"></script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/3a1f4e3ef8.js" crossorigin="anonymous"></script>
+
 <script>
   AOS.init({
     delay: 400,
