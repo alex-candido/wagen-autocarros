@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  padding-top: 25px;
+  padding-top: 20px;
   background: var(--cor-0);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -18,15 +18,18 @@
   background: var(--cor-0);
 }
 
+.header .logo {
+  padding-bottom: 10px;
+}
+
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 
 .header .header-menu li {
-  height: 75px;
-  padding-bottom: 20px;
+  height: 80px;
 }
 
 .header-bg.active {
@@ -34,8 +37,12 @@
   transition: .2s linear;
 }
 
+.header-bg.active .header .logo {
+  padding-bottom: 5px;
+}
+
 .header-bg.active .header .header-menu li{
-  height: 70px;
+  height: 75px;
   transition: .2s linear;
 }
 
@@ -46,7 +53,7 @@
 
 .header .header-menu li a {
   display: inline-block;
-  padding: 16px 0px 16px 0px;
+  padding: 20px 0px 30px 0px;
   font-size: 16px;
   color: var(--cor-6);
   font-weight: 700;

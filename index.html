@@ -21,16 +21,30 @@
   <!-- header section starts-->
   <header class="header-bg">
     <div class="header container">
-      <a href="./">
+      <a class="logo" href="./">
         <img src="src/img/geral/img-logo.png" alt="Wagen Autocarros">
       </a>
       <nav>
         <ul class="header-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">carros</a></li>
+          <li><a href="#">Categorias</a></li>
+          <li><a href="#">Modelos</a></li>
           <li><a href="#">Comprar</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li class="city"><a href="#" title="Sua Cidade">...</a><i class='fa-solid fa-location-dot'></i></li>
+          <li data-dropdown>
+            <a href="#">Serviços <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Comprar</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Alugar</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Financiar</a></li>
+                <li><a href="#">Seguro</a></li>
+                <li><a href="#">Suporte</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="city"><a href="#" title="Sua cidade">...</a><i class='fa-solid fa-location-dot'></i></li>
         </ul>
       </nav>
       <div class="login-btn">
@@ -831,6 +845,8 @@
 <script src="src/modules/start-city-location.js"></script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/3a1f4e3ef8.js" crossorigin="anonymous"></script>
+
 <script>
   AOS.init({
     delay: 400,
