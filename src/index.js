@@ -10,6 +10,7 @@ import initModelsSlide from './modules/start-models-slide.js';
 import initBuySlide from './modules/start-buy-slide.js';
 import initFaqAccordio from './modules/start-accordion-faq.js';
 import initClientsSlide from './modules/start-clients-slide.js';
+import initModalLogin from './modules/start-modal-login.js';
 
 
 initHeaderShort();
@@ -24,3 +25,4 @@ initModelsSlide();
 initBuySlide();
 initFaqAccordio();
 initClientsSlide();
+initModalLogin();

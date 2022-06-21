@@ -5,14 +5,13 @@
   height: 100%;
   width: 100%;
   background: rgba(255,255,255,.9);
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
 
 .login-bg.active {
-  top: 0;
-  opacity: 1;
+  display: flex;
 }
 
 .login-bg form {
@@ -83,11 +82,10 @@
   letter-spacing: 0.05em;
 }
 
-.login-bg #close-login-form {
+.login-bg #close {
   position: absolute;
   top: 1.5rem; 
   right: 2.5rem;
   font-size: 2rem;
-  color: var(--cor-6);
   cursor: pointer;
 }

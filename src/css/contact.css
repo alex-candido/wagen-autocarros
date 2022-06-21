@@ -71,17 +71,17 @@
   padding-bottom: 1rem;
 }
 
-.contact-bg .contact-wrapper form .contact-box{
-  font: 1rem "Poppins", sans-serif;
-  font-weight: bold;
+.contact-bg .contact-wrapper form input, textarea{
   width:100%;
-  border-radius: 10px;
-  padding: 15px 20px;
-  text-transform: none;
-  border: 2px solid #94949E;
+  font: 1.125rem/1.5 "Poppins", sans-serif;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color:var(--cor-6);
+  border:var(--border);
+  padding: 1rem 1.2rem;
+  border-radius: .5rem;
   margin-bottom: 20px;
 }
-
 
 .contact-bg .contact-wrapper form textarea{
   height: 160px;
