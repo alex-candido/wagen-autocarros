@@ -1,3 +1,5 @@
+/* search div starts */
+
 .search-bg {
   position: absolute;
   width: 100%;
@@ -12,16 +14,8 @@
   border-radius: 10px;
   padding: 30px 30px; 
   background: var(--cor-0);
-  border: 2px solid #E5E5E5;
-  /* position: absolute;
-  width: 978px;
-  margin: 0 auto;
-  background: #fff;
+  border: var(--border)
 
-  left: -50%;
-  right: -50%;
-  top: 520px;
-  z-index: 500; */
 }
 
 .navbar-search ul {
@@ -31,25 +25,22 @@
 }
 
 .navbar-search h3 {
-  font-style: normal;
+  font: 1rem/1.3 "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 16px;
   line-height: 20px;
-  color: #000;
+  color: var(--cor-6);
   margin-right: 30px;
   padding-bottom: 15px;
   cursor: pointer;
 }
 
 .navbar-search h3:hover {
-  color: #D90008;
+  color: var(--cor-p1);
 }
 
 .navbar-search h3.active {
-  border-bottom: 3px solid #D90008;
+  border-bottom: 3px solid var(--cor-p1);
 }
-
-/* ----------- */
 
 .input-search {
   display: flex;
@@ -67,18 +58,6 @@
   border:var(--border);
   padding: 1rem 1.2rem;
   border-radius: .5rem;
-}
-
-.input-search input:hover {
-  border-color: #D90008;
-  outline: none;
-}
-
-.input-search i {
-  position: absolute;
-  top: 109px;
-  left: 40px;
-  color: #94949E;
 }
 
 .search.active {
