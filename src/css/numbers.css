@@ -9,7 +9,7 @@
 .numbers-wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   gap: 29px;
   align-items: center;
@@ -19,7 +19,7 @@
 
 .numbers-bg .icons{
   display: flex;
-  width: 278px;
+  width: 100%;
   flex-direction: row;
   align-items: center;
   padding: 20px;
