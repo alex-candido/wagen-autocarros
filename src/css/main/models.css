@@ -39,6 +39,7 @@
   background: var(--cor-0);
   border: var(--border);
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .box-models a {

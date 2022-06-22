@@ -41,6 +41,7 @@
   border-radius: 10px;
   opacity: .4;
   transform: scale(.9);
+  box-shadow: var(--box-shadow);
 }
 
 .swiper-wrapper-clients .swiper-slide-active {
