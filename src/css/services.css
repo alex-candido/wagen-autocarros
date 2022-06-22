@@ -5,10 +5,10 @@
 }
 
 .services-bg h1 {
-  font-size: 40px;
+  font: 2.5rem/1.25 "Poppins", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--cor-6);
   text-align: center;
   padding-top: 60px;
 }
@@ -18,18 +18,16 @@
   display: block;
   width: 80px;
   height: 3px;
-  background: #DB0D15;
-  margin: 15px auto 10px auto;
+  background: var(--cor-p1);
+  margin: 10px auto 10px auto;
 }
 
 .services-bg p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font: 1.125rem/1.5 "Roboto", sans-serif;
   line-height: 20px;
-  color: #94949E;
+  color: var(--cor-3);
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .swiper-services-1 {
@@ -52,7 +50,7 @@
   cursor: pointer;
   width:100%;
   background: var(--cor-0);
-  border: 2px solid #E5E5E5;
+  border: var(--border);
   border-radius: 10px;
 }
 
@@ -70,18 +68,20 @@
 
 .box-services h3 {
   font-style: normal;
+  font: 1.5rem "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 28px;
   line-height: 30px;
-  color: #000;
+  color: var(--cor-6);
 }
 
 .box-services h3 span {
-  color: #DB0D15;
+  color: var(--cor-p1);
 }
 
 .box-services p {
   margin-bottom: 0;
+  font: 1rem "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .box-services:hover {
@@ -90,21 +90,32 @@
 }
 
 .box-services:hover h3 {
-  color:#fff;
+  color: var(--cor-0);
 }
 
 .box-services:hover h3 span {
-  color:#fff;
+  color: var(--cor-0);
 }
 
 .box-services:hover p {
-  color:#fff;
+  color: var(--cor-0);
 }
 
 .services-bg .swiper-services .swiper-wrapper-services .box-services .btn {
-  background: #F5B807;
+  background: var(--cor-s1);
   padding: 10px 25px;
-  color: #000;
+  color: var(--cor-6);
+  font-weight: 600;
+}
+
+.bservicesuy-bg .swiper-services .swiper-wrapper-services .box-services .btn:hover {
+  background: var(--background-3)
+}
+
+.services-bg .swiper-services .swiper-wrapper-services .box-services .btn {
+  background: var(--cor-s1);
+  padding: 10px 25px;
+  color: var(--cor-6);
 }
 
 .services-bg .swiper-services .swiper-wrapper-services .box-services .btn:hover {
