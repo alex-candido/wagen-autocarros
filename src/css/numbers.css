@@ -6,14 +6,18 @@
   margin-top: 130px;
 }
 
+.background-numbers {
+  width: 100%;
+}
+
 .numbers-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 29px;
   align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .numbers-bg .icons{
