@@ -27,7 +27,7 @@ export default function initClientsSlide() {
     loop: true,
     loopFillGroupWithBlank: true,
     autoplay: {
-    delay: 6500,
+    delay: 50500,
     disableOnInteraction: false,
     },
     pagination: {
