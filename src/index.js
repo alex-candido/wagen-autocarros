@@ -11,6 +11,7 @@ import initBuySlide from './modules/start-buy-slide.js';
 import initFaqAccordio from './modules/start-accordion-faq.js';
 import initClientsSlide from './modules/start-clients-slide.js';
 import initModalLogin from './modules/start-modal-login.js';
+import initBtn from './modules/start-return-btn.js';
 
 
 initHeaderShort();
@@ -26,3 +27,4 @@ initBuySlide();
 initFaqAccordio();
 initClientsSlide();
 initModalLogin();
+initBtn();
