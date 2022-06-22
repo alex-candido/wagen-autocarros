@@ -43,7 +43,7 @@
 .swiper-wrapper-services {
   display: flex;
   gap: 30px;
-  height: 320px;
+  height: 300px;
 }
  
 .box-services {
