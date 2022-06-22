@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.data-dropdown:hover a i{
+  transform: rotate(180deg);
+}
+
 
 .dropdown-menu {
   width: 480px;
