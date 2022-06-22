@@ -6,68 +6,71 @@
 }
 
 .newsletter-wrapper {
-  /* background: var(--cor-p1); */
-  background: linear-gradient(270deg,#ba282b 4.1%,#e8474d 52.73%,#ba282b 97.46%);
+  background: var(--cor-6);
   border-radius: 10px;
-  padding: 60px 110px 60px 110px;
+  padding: 50px 60px 50px 60px;
 }
 
 .newsletter-bg .newsletter-wrapper .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
+  align-items: start;
+  gap: 15px;
   text-align: center;
 }
 
 .newsletter-bg .newsletter-wrapper .content h3 {
+  font: 2.5rem "Poppins", sans-serif;
+  text-align: left;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 60px;
+  line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;  
   color: var(--cor-0);
 }
 
+.newsletter-bg .newsletter-wrapper .content h3::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--cor-0);
+  margin: 10px 0 10px 0;
+  }
+
 .newsletter-bg .newsletter-wrapper .content p {
   font-style: normal;
+  font: 1.125rem "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 18px;
   line-height: 20px;
   color: var(--cor-0);
 }
 
 .newsletter-wrapper form {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 10px; 
 }
 
 .newsletter-wrapper input {
-  height: 50px;
-  width: 662px;
-  padding: 15px 20px;
-  border: 2px solid #94949E;
-  border-radius: 10px;
-  font: 1rem "Poppins", sans-serif;
-  font-weight: bold;
+  width: 500px;
+  font: 1.125rem/1.5 "Poppins", sans-serif;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color:var(--cor-6);
+  border:var(--border);
+  padding: 1rem 1.2rem;
+  border-radius: .5rem;
+  }
+
+.newsletter-bg .container .newsletter-wrapper .btn {
+  background: var(--cor-s1);
+  padding: 10px 25px;
+  color: var(--cor-6);
+  font-weight: 600;
 }
 
-.newsletter-wrapper input:hover {
-  border-color: var(--cor-s1);
-  outline: none;
+.newsletter-bg .container .newsletter-wrapper .btn:hover {
+  background: var(--background-3)
 }
-
-.newsletter-bg .newsletter-wrapper .content .btn {
-  background: #F5B807;
-  color: var(--cor-7);
-  height: 50px;
-}
-
-.newsletter-bg .newsletter-wrapper .content .btn:hover {
-  background: linear-gradient(90deg, #F5B807 8.64%, rgba(255, 192, 7, 0.74) 83.18%);
-}
-
-
-/* newsletter section ends */
