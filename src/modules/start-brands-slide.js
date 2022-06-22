@@ -22,7 +22,7 @@ export default function initBrandsSlide() {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 6,
-    spaceBetween: 72,
+    spaceBetween: 40,
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
@@ -37,6 +37,26 @@ export default function initBrandsSlide() {
     navigation: {
       nextEl: ".swiper-button-next-brands",
       prevEl: ".swiper-button-prev-brands",
+    },
+    breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    321: {
+      slidesPerView: 2,
+    },
+    502: {
+      slidesPerView: 3,
+    },
+    683: {
+      slidesPerView: 4,
+    },
+    864: {
+      slidesPerView: 5,
+    },
+    1046: {
+      slidesPerView: 6,
+    },
     },
   });
 }
