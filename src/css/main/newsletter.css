@@ -9,6 +9,7 @@
   background: var(--cor-6);
   border-radius: 10px;
   padding: 50px 60px 50px 60px;
+  box-shadow: var(--box-shadow);
 }
 
 .newsletter-bg .newsletter-wrapper .content {

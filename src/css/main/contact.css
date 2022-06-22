@@ -2,15 +2,15 @@
 
 .contact-bg {
   width: 100%;
-  padding-top: 60px;
 }
 
 .contact-bg h1 {
-  font-size: 40px;
+  font: 2.5rem/1.25 "Poppins", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--cor-6);
   text-align: center;
+  padding-top: 60px;
 }
 
 .contact-bg h1::after {
@@ -18,56 +18,53 @@
   display: block;
   width: 80px;
   height: 3px;
-  background: #DB0D15;
-  margin: 15px auto 10px auto;
+  background: var(--cor-p1);
+  margin: 10px auto 10px auto;
 }
 
 .contact-bg p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font: 1.125rem/1.5 "Roboto", sans-serif;
   line-height: 20px;
-  color: #94949E;
+  color: var(--cor-3);
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .contact-bg .contact-wrapper{
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: center;
-  gap:1.5rem;
+  gap: 30px;
   margin-bottom: 60px;
 }
 
 .contact-bg .contact-wrapper .map{
+  padding: 25px 30px;
   flex:1 1 42rem;
   width: 100%;
-  padding:2rem;
-  box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-  border:var(--border);
+  box-shadow: var(--box-shadow);
   border-radius: .5rem;
-  border: 2px solid #E5E5E5;
-  background: #ffff;
+  border: var(--border);
+  background: var(--cor-0);
 }
 
 .contact-bg .contact-wrapper form{
-  padding:2rem;
+  padding: 25px 30px;
   flex:1 1 42rem;
-  box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  box-shadow: var(--box-shadow);
   border:var(--border);
   text-align: center;
   border-radius: .5rem;
-  border: 2px solid #E5E5E5;
-  background: #ffff;
+  border: var(--border);
+  background: var(--cor-0);
 }
 
 .contact-bg .contact-wrapper form h3{
   font-style: normal;
+  font: 2rem/1.5 "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 32px;
   line-height: 30px;
-  color: #000;
+  color: var(--cor-6);
   padding-bottom: 1rem;
 }
 

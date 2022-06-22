@@ -51,6 +51,7 @@
   background-size:contain;
   width: 100%;
   border: var(--border);
+  box-shadow: var(--box-shadow);
 }
 
 .box-brands a {
