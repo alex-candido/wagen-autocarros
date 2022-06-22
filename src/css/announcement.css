@@ -9,34 +9,45 @@
   /* background: var(--cor-p1); */
   background: linear-gradient(270deg,#ba282b 4.1%,#e8474d 52.73%,#ba282b 97.46%);
   border-radius: 10px;
-  padding: 25px 110px 25px 110px;
+  padding: 50px 60px 50px 60px;
 }
 
 .announcement-bg .announcement-wrapper .content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .announcement-bg .announcement-wrapper .content h3 {
+  font: 2.5rem "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 60px;
+  line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;  
   color: var(--cor-0);
 }
 
+.announcement-bg .announcement-wrapper .content h3::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--cor-0);
+  margin: 10px 0 10px 0;
+  }
+
 .announcement-bg .announcement-wrapper .content p {
   font-style: normal;
+  font: 1.125rem "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 18px;
   line-height: 20px;
   color: var(--cor-0);
 }
 
 .announcement-bg .announcement-wrapper .content .btn {
-  background: #F5B807;
+  background: var(--cor-s1);
+  color: var(--cor-6);
+  font-weight: 600;
 }
 
 .announcement-bg .announcement-wrapper .content .btn:hover {
