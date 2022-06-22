@@ -32,4 +32,45 @@ input[type="search"]::-webkit-search-results-decoration {
   -webkit-appearance:none;
 }
 
+.return-btn {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1000;
+  background: var(--cor-s1);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  scroll-behavior: smooth;
+}
+
+.return-btn i{
+  padding: 17px 20px 17px 20px;
+  font-size: 1.5rem;
+  color: var(--cor-0);
+}
+
+.return-btn:hover{
+  background:var(--background-3);
+}
+
+.return-btn.active {
+  display: flex;
+  animation: slideDown .8s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    max-height: 200px;
+    opacity: 1;
+  }
+}
+
 /* componentes ends */

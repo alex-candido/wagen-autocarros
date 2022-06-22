@@ -4,7 +4,6 @@ export default function initFaqAccordion() {
   
   const accordionIcon = document.querySelectorAll('[data-anime="accordion"] .question .fa-solid');
 
-  console.log(accordionIcon);
   const activeClass = 'active';
 
 if(accordionLista.length) {
