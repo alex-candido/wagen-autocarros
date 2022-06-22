@@ -34,22 +34,8 @@
   height: 80px;
 }
 
-.header-bg.active {
-  padding-top: 16px;
-  transition: .2s linear;
-}
-
-.header-bg.active .header .logo {
-  padding-bottom: 5px;
-}
-
 .header-bg .header .login-btn {
   padding-top: 5px;
-}
-
-.header-bg.active .header .header-menu li{
-  height: 75px;
-  transition: .2s linear;
 }
 
 .header .header-menu li:hover{
@@ -83,6 +69,20 @@
 .header .header-menu .city i {
   padding: 19px 0px 16px 0px;
   color: var(--cor-p1);
+}
+
+.header-bg.active {
+  padding-top: 16px;
+  transition: .2s linear;
+}
+
+.header-bg.active .header .logo {
+  padding-bottom: 5px;
+}
+
+.header-bg.active .header .header-menu li{
+  height: 75px;
+  transition: .2s linear;
 }
 
 @media (max-width: 800px) {
