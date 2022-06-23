@@ -13,11 +13,12 @@ export default function initDropdownMenu() {
 
   function handleClick(event) {
     event.preventDefault();
-    this.classList.toggle('active');
+    this.classList.add('active');
     outsideClick(this, ['touchstart', 'click'], () => {
       this.classList.remove('active');
     });
   };
+
 
   function outsideClick(element, events, callback) {
     if(!element.hasAttribute(outside)) {

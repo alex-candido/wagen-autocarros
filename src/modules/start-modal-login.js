@@ -1,5 +1,5 @@
 export default function initModalLogin() {
-  const openButton = document.querySelector('[data-modal="login"]');
+  const openButton = document.querySelectorAll('.modal-login');
   const closeButton = document.querySelector('#close');
   const containerModal = document.querySelector('[data-modal="container"]');
   
@@ -15,7 +15,11 @@ export default function initModalLogin() {
       }
     }
   
-    openButton.addEventListener('click', toggleModal);
+    openButton.forEach(button => {
+      button.addEventListener('click', toggleModal);
+      console.log(button)
+    })
+ 
     closeButton.addEventListener('click', toggleModal);
     containerModal.addEventListener('click', cliqueForaModal);
   }

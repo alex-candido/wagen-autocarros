@@ -14,6 +14,7 @@ import initModalLogin from './modules/start-modal-login.js';
 import initBtn from './modules/start-return-btn.js';
 import initHeaderMenu from './modules/start-header-menu.js';
 import initDropdownMenu from './modules/start-dropdown-menu.js';
+import initScrollSmooth from './modules/start-scroll-smooth.js';
 
 
 initHeaderShort();
@@ -32,3 +33,4 @@ initModalLogin();
 initBtn();
 initHeaderMenu();
 initDropdownMenu();
+initScrollSmooth();

@@ -74,9 +74,9 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1045px) {
-  .container {
+  /* .container {
     max-width: 800px;
-  }
+  } */
 
   
 
