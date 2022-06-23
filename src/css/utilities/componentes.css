@@ -73,4 +73,22 @@ input[type="search"]::-webkit-search-results-decoration {
   }
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1045px) {
+  .container {
+    max-width: 800px;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 799px) {
+  /* .container {
+    max-width: 600px;
+  } */
+  html {
+    font-size: 90%;
+  }
+}
+
 /* componentes ends */
