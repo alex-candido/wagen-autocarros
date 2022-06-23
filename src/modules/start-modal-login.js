@@ -17,7 +17,6 @@ export default function initModalLogin() {
   
     openButton.forEach(button => {
       button.addEventListener('click', toggleModal);
-      console.log(button)
     })
  
     closeButton.addEventListener('click', toggleModal);

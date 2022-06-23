@@ -99,4 +99,11 @@
   transition: max-height 0.2s ease-out 0s, margin-top 0.2s ease-out 0s, margin-bottom 0.2s ease-out 0s, opacity 0.3s ease-out 0s;
 }
 
+@media only screen and (max-width: 799px) { 
+  .container-faq {
+    width: 100%;
+  }
+
+}
+
 /* faq section ends*/

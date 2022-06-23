@@ -71,6 +71,7 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1045px) { 
+
 .home-bg .home-slider .box .content h1{
     font: 2rem;
     padding-right: 80px; 
@@ -84,6 +85,10 @@
   .home-bg .home-slider .box .content h1{
     font: 2rem;
     padding: 0px; 
+  }
+  
+  element.style {
+    width: 100%;
   }
 }
 

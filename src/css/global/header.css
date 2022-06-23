@@ -121,12 +121,13 @@
 }
 
 @media only screen and (max-width: 799px) {
-  .header-bg.active{
-    padding-top: 20px;
+  .header-bg {
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
   
-  .header-bg{
-    padding-bottom: 20px;
+  .header-bg.active {
+    padding-top: 13px;
   }
 
   .login-btn {
@@ -151,7 +152,7 @@
   .header nav .header-menu {
     display: none;
     position: absolute;
-    top: 100px; right: 0; left: 0;
+    top: 91px; right: 0; left: 0;
     flex-direction: column;
     background: var(--cor-0);
     border: var(--border);
@@ -173,11 +174,11 @@
   }
 
   .header .header-menu li {
-    height: 60px;
+    height: 50px;
 }
   
   .header-bg.active .header .header-menu li {
-    height: 60px;
+    height: 50px;
   }
 
   .header .header-menu li a{

@@ -84,7 +84,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media only screen and (max-width: 799px) {
   /* .container {
-    max-width: 600px;
+    max-width: 400px;
   } */
   html {
     font-size: 90%;
