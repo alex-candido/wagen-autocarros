@@ -87,3 +87,28 @@
   font: 1.125rem/1.5 "Poppins", sans-serif;
   color: var(--cor-0);
 }
+
+
+@media only screen and (min-width: 800px) and (max-width: 1045px) { 
+
+  .footer-wrapper {
+    grid-template-columns: 357px 1fr;
+    justify-content: center;
+    padding:  60px 60px 60px 60px;
+  }
+}
+
+@media only screen and (max-width: 799px) { 
+
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding:  60px 60px 60px 60px;
+  }
+
+  .copy {
+    width: auto;
+    margin: 0 60px 0 60px;
+  }
+
+}

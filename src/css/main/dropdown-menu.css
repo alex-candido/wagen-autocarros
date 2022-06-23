@@ -79,6 +79,11 @@
     width: 100%;
     position: static;
     border-radius: 0;
+    padding: 20px 30px;
+  }
+
+  [data-dropdown]:hover .dropdown-menu {
+    display: flex;
   }
 
   .data-dropdown i {

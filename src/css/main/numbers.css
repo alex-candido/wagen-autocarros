@@ -72,6 +72,11 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1045px) {
+
+   .numbers-wrapper {
+  padding: 60px;
+   }
+
  .numbers-bg .icons .content p {
   font: 1.125rem/1.5 "Poppins", sans-serif; 
   font-weight: 500;
@@ -87,7 +92,11 @@
 @media only screen and (max-width: 799px) {
  .numbers-wrapper {
   flex-wrap: wrap;
+  padding: 60px;
+  }
 
+  .numbers-bg {
+    margin-top: 180px;
   }
 
 }

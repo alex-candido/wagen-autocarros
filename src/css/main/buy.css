@@ -127,6 +127,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
 }
 
 .swiper-button-next-buy:after, .swiper-rtl .swiper-button-prev-buy:after {
@@ -147,10 +148,6 @@
   line-height: 1;
 }
 
-.swiper-button-prev-buy, .swiper-button-next-buy{
-  opacity: 0;
-}
-
 .swiper-button-prev-buy:hover, .swiper-button-next-buy:hover {
   color: var(--cor-p1);
 }
@@ -168,5 +165,26 @@
   width: 100%;
   text-align: center;
 } 
+
+@media only screen and (min-width: 800px) and (max-width: 1045px) { 
+
+  .buy-bg .container {
+    padding: 0 60px;
+}
+
+}
+
+@media only screen and (max-width: 799px) { 
+
+  .swiper-button-prev-buy, .swiper-button-next-buy {
+    display: none;
+  }
+
+  .buy-bg .container {
+    padding: 0 60px;
+}
+
+}
+
 
 /* buy section ends */

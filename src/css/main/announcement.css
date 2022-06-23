@@ -54,5 +54,19 @@
   background: linear-gradient(90deg, #F5B807 8.64%, rgba(255, 192, 7, 0.74) 83.18%);
 }
 
+  @media only screen and (min-width: 800px) and (max-width: 1045px) { 
+    .announcement-bg .container {
+      padding: 0 60px;
+    }
+
+  }
+
+  @media only screen and (max-width: 799px) {
+    .announcement-bg .container {
+      padding: 0 60px;
+    }
+    
+  }
+
 
 /* announcement section ends */

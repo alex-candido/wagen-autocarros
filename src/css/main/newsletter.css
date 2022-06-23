@@ -75,3 +75,30 @@
 .newsletter-bg .container .newsletter-wrapper .btn:hover {
   background: var(--background-3)
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1045px) { 
+
+  .newsletter-bg .container {
+    padding: 0 60px;
+}
+
+.newsletter-wrapper form {
+    flex-wrap: wrap;
+}
+
+}
+
+@media only screen and (max-width: 799px) { 
+  .newsletter-wrapper form {
+    flex-wrap: wrap;
+  }
+
+  .newsletter-wrapper input {
+    width: 100%;
+  }
+
+  .newsletter-bg .container {
+    padding: 0 60px;
+}
+
+} 

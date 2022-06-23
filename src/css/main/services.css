@@ -113,5 +113,37 @@
   background: var(--background-3)
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1045px) { 
+
+  .services-bg .container {
+    padding: 0 60px;
+  }
+
+  .box-services p {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 799px) { 
+  .services-bg .container {
+    padding: 0 60px;
+  }
+
+  .swiper-wrapper-services {
+    display: grid;
+    height: auto;
+  }
+
+  .swiper-wrapper-services .box-services {
+    height: 300px;
+  }
+
+  .box-services p {
+    display: none;
+  }
+
+  
+}
 
 /* services section ends */
