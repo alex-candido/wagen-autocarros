@@ -173,11 +173,11 @@
   }
 
   .header .header-menu li {
-    height: 60px;
+    height: 50px;
 }
   
   .header-bg.active .header .header-menu li {
-    height: 60px;
+    height: 50px;
   }
 
   .header .header-menu li a{
