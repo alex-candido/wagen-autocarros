@@ -12,6 +12,9 @@ import initFaqAccordio from './modules/start-accordion-faq.js';
 import initClientsSlide from './modules/start-clients-slide.js';
 import initModalLogin from './modules/start-modal-login.js';
 import initBtn from './modules/start-return-btn.js';
+import initHeaderMenu from './modules/start-header-menu.js';
+import initDropdownMenu from './modules/start-dropdown-menu.js';
+import initScrollSmooth from './modules/start-scroll-smooth.js';
 
 
 initHeaderShort();
@@ -28,3 +31,6 @@ initFaqAccordio();
 initClientsSlide();
 initModalLogin();
 initBtn();
+initHeaderMenu();
+initDropdownMenu();
+initScrollSmooth();
