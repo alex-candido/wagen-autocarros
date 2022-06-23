@@ -21,7 +21,7 @@ export default function initCategoriesSlide() {
   var swiper = new Swiper(".mySwiper-categories", {
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
     slidesPerGroup: 1,
     loop: true,
