@@ -83,13 +83,24 @@
 @media only screen and (max-width: 799px) { 
   
   .home-bg .home-slider .box .content h1{
-    font: 2rem;
-    padding: 0px; 
+    font-size: 3.5rem;
+    padding: 0 60px; 
   }
   
   element.style {
     width: 100%;
   }
+
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .home-bg .home-slider .box .content h1{
+    font-size: 3rem;
+  }
+
 }
 
 /* home section ends */

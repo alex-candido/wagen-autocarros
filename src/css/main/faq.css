@@ -99,11 +99,51 @@
   transition: max-height 0.2s ease-out 0s, margin-top 0.2s ease-out 0s, margin-bottom 0.2s ease-out 0s, opacity 0.3s ease-out 0s;
 }
 
+ @media only screen and (min-width: 800px) and (max-width: 1045px) {
+  .faq-bg h1 {
+    padding: 60px 60px 0 60px;
+  }
+
+   .faq-bg-wrapper .container-faq .faq-lista {
+    padding: 50px 60px;
+  }
+
+}
+
 @media only screen and (max-width: 799px) { 
+
+  .faq-bg h1 {
+    padding: 60px 60px 0 60px;
+  }
+
   .container-faq {
     width: 100%;
+  }
+
+  .faq-bg-wrapper .container-faq .faq-lista {
+    padding: 50px 60px;
   }
 
 }
 
 /* faq section ends*/
+
+/* @media only screen and (min-width: 800px) and (max-width: 1045px) { 
+
+  .buy-bg .container {
+    padding: 0 60px;
+}
+
+}
+
+@media only screen and (max-width: 799px) { 
+
+  .swiper-button-prev-buy, .swiper-button-next-buy {
+    display: none;
+  }
+
+  .buy-bg .container {
+    padding: 0 60px;
+}
+
+} */

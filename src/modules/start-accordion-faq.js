@@ -7,7 +7,7 @@ export default function initFaqAccordion() {
   const activeClass = 'active';
 
 if(accordionLista.length) {
-  accordionDescription[0].classList.add(activeClass);
+  // accordionDescription[0].classList.add(activeClass);
   function activeDescription(index){
     accordionDescription[index].classList.toggle(activeClass)
     accordionIcon[index].classList.toggle(activeClass);
