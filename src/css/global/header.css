@@ -192,8 +192,9 @@
 
 }
 
-
+@media only screen and (max-width: 500px) {
+  .header nav .header-menu {
+    top: 85px;
+  }
+}
 /* header section ends */
-
-
-
