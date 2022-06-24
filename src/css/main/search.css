@@ -81,13 +81,16 @@
   }
 
   .search {
-    padding: 10px 60px 10px 60px;
+    padding: 10px 50px;
   }
-
-  
 }
 
 @media only screen and (max-width: 600px) {
+
+  .search-wrapper {
+    padding: 20px;
+  }
+
   .navbar-search ul {
     justify-content: space-between;
   }

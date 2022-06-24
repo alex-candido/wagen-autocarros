@@ -166,11 +166,13 @@
     padding: 0 60px;
 }
 
-.box-brands {
-  background-size: 100px auto;
 }
 
-}
+/* @media only screen and (max-width: 600px) {
+  element.style {
+    margin-left: 10px;
+  }
+} */
 
 /* brands section ends */
 
