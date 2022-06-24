@@ -46,6 +46,7 @@
   font-weight: 400;
   line-height: 20px;
   color: var(--cor-0);
+  text-align: left;
 }
 
 .newsletter-wrapper form {
@@ -102,3 +103,9 @@
 }
 
 } 
+
+ @media only screen and (max-width: 400px) { 
+    .newsletter-bg .newsletter-wrapper .content h3 {
+      font-size: 1.5rem;
+    }
+ }

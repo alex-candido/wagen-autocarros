@@ -156,6 +156,7 @@
 
   .brands-bg h1 {
     font: 2rem;
+    padding: 60px 60px 0 60px;
   }
 
   .swiper-button-prev-brands, .swiper-button-next-brands {
@@ -167,12 +168,6 @@
 }
 
 }
-
-/* @media only screen and (max-width: 600px) {
-  element.style {
-    margin-left: 10px;
-  }
-} */
 
 /* brands section ends */
 

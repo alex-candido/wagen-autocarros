@@ -103,4 +103,10 @@
 
 }
 
+@media only screen and (max-width: 400px){
+  .home-bg .home-slider .box .content h1{
+    font-size: 2.5rem;
+  }
+}
+
 /* home section ends */

@@ -68,5 +68,11 @@
     
   }
 
+  @media only screen and (max-width: 400px) { 
+    .announcement-bg .announcement-wrapper .content h3 {
+      font-size: 1.5rem;
+    }
+  }
+
 
 /* announcement section ends */
