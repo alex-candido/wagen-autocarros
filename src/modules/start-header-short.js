@@ -1,5 +1,4 @@
 export default function initHeaderShort() {
-  // start header-reduce
 
   window.addEventListener('scroll', () =>{
     if (window.scrollY > 0){
@@ -8,8 +7,6 @@ export default function initHeaderShort() {
       document.querySelector('.header-bg').classList.remove('active');
     }
   })
-
-  // start header-reduce
 
   window.addEventListener('load', () =>{
     if (window.scrollY > 0){

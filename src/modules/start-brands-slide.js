@@ -14,10 +14,6 @@ export default function initBrandsSlide() {
     })
   })
 
-  
-
-  //stat categories-slide
-
   var swiper = new Swiper(".mySwiper-brands", {
     grabCursor: true,
     centeredSlides: true,
