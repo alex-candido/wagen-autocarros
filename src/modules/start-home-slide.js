@@ -1,7 +1,5 @@
 export default function initHomeSlide() {
 
-  // start home slide 
-
   var swiper = new Swiper(".home-slider", {
     spaceBetween: 20,
     effect: "fade",

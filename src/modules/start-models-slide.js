@@ -14,10 +14,6 @@ export default function initModelsSlide() {
     })
   })
 
-  
-
-  //stat categories-slide
-
   var swiper = new Swiper(".mySwiper-models", {
     grabCursor: true,
     centeredSlides: true,

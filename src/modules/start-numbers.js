@@ -1,6 +1,5 @@
 export default function initNumbers() {
 
-// start animation-numbers
 const numbers = document.querySelector('.numbers-bg')
 
 window.addEventListener('scroll', () => {

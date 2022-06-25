@@ -1,4 +1,5 @@
 export default function initHeaderMenu() { 
+
   let menu = document.querySelector('#menu-btn');
   let navbar = document.querySelector('.header-menu');
   
@@ -6,4 +7,5 @@ export default function initHeaderMenu() {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active')
   })  
+  
 }
