@@ -3,7 +3,7 @@
 ## Sobre
 
 Projeto desenvolvido utilizando HTML, CSS, JavaScript e Swiper.JS</br>
-A estrutura UI foi feita no Figma.</br>
+A estrutura UI foi feita no Figma [aqui](https://www.figma.com/file/5BSoveysIO1CLp0V2PVDyr/Landing-Page-Wagen-Autocarros?node-id=0%3A1)</br>
 Acesse a página clicando [aqui](https://alex-candido.github.io/wagen-autocarros/)
 
 ## Layout
