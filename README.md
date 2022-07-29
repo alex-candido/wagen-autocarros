@@ -10,6 +10,6 @@
 
 <img src="/src/img/Desktop.png" alt="resultado">
 
-Feito por Alex Cândido [Linkedin](https://www.linkedin.com/in/alexcndd/)
+Feito com 💙 por Alex Cândido [Linkedin](https://www.linkedin.com/in/alexcndd/)
 
 
